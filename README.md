@@ -9,19 +9,17 @@ Netai Benaim
 
 
 ## Introduction and Usability
-This project RL agent for traffic light control using the SUMO traffic simulation engine.
+RL agent for traffic light control using the SUMO traffic simulation engine.
 
 Training and Inference should be performed using the provided Dockerfile-s only.
 Full Training is available only with the TraCI Docker image, since no collisions information is supplied via
 libsumo. TraCI GUI was tested only on our on machine - running gui inside docker will require some more setup
 steps.
 
-
-
 #### Use Instructions
  1. Build image from one of the provided dockerfiles.
- 2. Run bash in a container with this directory mounted to "/AI_project"
- 3. Run "cd /AI_project"
+ 2. Run bash in a container with this directory mounted to `/AI_project`.
+ 3. Run `cd /AI_project`.
  4. Run the train_model.py script with one of the provided example configurations or you own configuration
  json file.
  3. logs will be automatically saved to the logs directory
@@ -47,7 +45,7 @@ abstraction of states, rewards and actions.
 - `sumo_backend.py`: our own unified API for TraCi and libsumo
 Different agent classes are implemented in separate files with "agent" in their names.
 
-A bash script named run_exps.sh is provided with some example commands.
+A bash script named `run_exps.sh` is provided with some example commands.
 
 ## Explanation about configuration parameters
 
