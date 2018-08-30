@@ -1,0 +1,18 @@
+
+first install socat via
+
+brew install socat
+
+socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+
+docker run -it --rm\
+    --env=DISPLAY=172.29.105.110:0 \
+    --volume="/etc/group:/etc/group:ro" \
+    --volume="/etc/passwd:/etc/passwd:ro" \
+    --volume="/etc/shadow:/etc/shadow:ro" \
+    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+     --volume="/Users/nbswars/Documents/AI_project:/AI_project" \
+    docker-sum \
+    bash
+
+

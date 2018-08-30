@@ -1,0 +1,14 @@
+BUILDING:
+
+cd <path/of/dir/containing/docker/file>
+docker build -t <a name for your docker> .
+
+
+RUNNING:
+
+docker run --name <CONTAINER_NAME>
+    --rm
+    -it
+    -v <PATH/TO/PROJECT>:/AI_project <IMAGE_NAME>:<IMAGE_TAG> bash
+
+

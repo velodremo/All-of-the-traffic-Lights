@@ -1,0 +1,25 @@
+{
+  "backend": "libsumo",
+  "observation_radius": 50,
+  "net_dir": "/AI_project/nets/oneroute_net" ,
+  "flow_probabilities": {"car": "0.005", "ambulance": "0.0001", "bus": "0.0005"},
+  "sumo_cmd": ["-c","/AI_project/nets/oneroute_net/config.sumocfg", "--random", "--no-warnings"],
+  "default_program": {
+    "0": ["100", "3", "6", "3", "100", "3", "6", "3"],
+    "1": ["100", "3", "6", "3", "100", "3", "6", "3"]
+  },
+  "epsilon": 0.01,
+  "actions_type": "dual",
+  "alpha": 0.01,
+  "discount": 0.95,
+  "r_weight": 0.9,
+  "junctions": ["0", "0d", "0l", "0u", "1", "1d", "1r", "1u"],
+  "junctions_with_agents": ["0", "1"],
+  "num_episodes": 20,
+  "steps_per_episode": 3000,
+  "log_path": "/AI_project/logs",
+  "mode": "linear",
+  "log": true,
+  "exploring": false,
+  "fixed_action": 2
+}

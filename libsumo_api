@@ -1,0 +1,751 @@
+FUNCTIONS
+    StringVector_swigregister(...)
+
+    SwigPyIterator_swigregister(...)
+
+    TraCIBestLanesData_swigregister(...)
+
+    TraCIBoundary_swigregister(...)
+
+    TraCIColor_swigregister(...)
+
+    TraCIConnection_swigregister(...)
+
+    TraCIException_swigregister(...)
+
+    TraCILink_swigregister(...)
+
+    TraCILogic_swigregister(...)
+
+    TraCINextTLSData_swigregister(...)
+
+    TraCIPhase_swigregister(...)
+
+    TraCIPosition_swigregister(...)
+
+    TraCIStageVector_swigregister(...)
+
+    TraCIStage_swigregister(...)
+
+    TraCIValue_swigregister(...)
+
+    TraCIVehicleData_swigregister(...)
+
+    edge_adaptTraveltime(...)
+
+    edge_getAdaptedTraveltime(...)
+
+    edge_getCO2Emission(...)
+
+    edge_getCOEmission(...)
+
+    edge_getContextSubscriptionResults(...)
+
+    edge_getEffort(...)
+
+    edge_getElectricityConsumption(...)
+
+    edge_getFuelConsumption(...)
+
+    edge_getHCEmission(...)
+
+    edge_getIDCount(...)
+
+    edge_getIDList(...)
+
+    edge_getLaneNumber(...)
+
+    edge_getLastStepHaltingNumber(...)
+
+edge_getLastStepLength(...)
+
+    edge_getLastStepMeanSpeed(...)
+
+    edge_getLastStepOccupancy(...)
+
+    edge_getLastStepPersonIDs(...)
+
+    edge_getLastStepVehicleIDs(...)
+
+    edge_getLastStepVehicleNumber(...)
+
+    edge_getNOxEmission(...)
+
+    edge_getNoiseEmission(...)
+
+    edge_getPMxEmission(...)
+
+    edge_getParameter(...)
+
+    edge_getSubscriptionResults(...)
+
+    edge_getTraveltime(...)
+
+    edge_getWaitingTime(...)
+
+    edge_setAllowedSVCPermissions(...)
+
+    edge_setAllowedVehicleClasses(...)
+
+    edge_setDisallowedVehicleClasses(...)
+
+    edge_setEffort(...)
+
+    edge_setMaxSpeed(...)
+
+    edge_setParameter(...)
+
+    edge_subscribe(...)
+
+    edge_subscribeContext(...)
+
+    edge_swigregister(...)
+
+    inductionloop_getIDCount(...)
+
+    inductionloop_getIDList(...)
+
+    inductionloop_getLaneID(...)
+
+    inductionloop_getLastStepMeanLength(...)
+
+    inductionloop_getLastStepMeanSpeed(...)
+
+    inductionloop_getLastStepOccupancy(...)
+
+    inductionloop_getLastStepVehicleIDs(...)
+
+    inductionloop_getLastStepVehicleNumber(...)
+
+    inductionloop_getPosition(...)
+
+    inductionloop_getTimeSinceDetection(...)
+
+    inductionloop_getTree(...)
+
+    inductionloop_getVehicleData(...)
+
+    inductionloop_swigregister(...)
+
+    junction_getIDCount(...)
+
+    junction_getIDList(...)
+
+    junction_getPosition(...)
+
+    junction_getShape(...)
+
+    junction_getTree(...)
+
+    junction_swigregister(...)
+
+    lane_getAllowed(...)
+
+    lane_getCO2Emission(...)
+
+    lane_getCOEmission(...)
+
+    lane_getDisallowed(...)
+
+    lane_getEdgeID(...)
+
+    lane_getElectricityConsumption(...)
+
+    lane_getFoes(...)
+
+    lane_getFuelConsumption(...)
+
+    lane_getHCEmission(...)
+
+    lane_getIDCount(...)
+
+    lane_getIDList(...)
+
+    lane_getInternalFoes(...)
+
+    lane_getLastStepHaltingNumber(...)
+
+    lane_getLastStepLength(...)
+
+    lane_getLastStepMeanSpeed(...)
+
+    lane_getLastStepOccupancy(...)
+
+    lane_getLastStepVehicleIDs(...)
+
+    lane_getLastStepVehicleNumber(...)
+
+    lane_getLength(...)
+
+    lane_getLinkNumber(...)
+
+    lane_getLinks(...)
+
+    lane_getMaxSpeed(...)
+
+    lane_getNOxEmission(...)
+
+    lane_getNoiseEmission(...)
+
+    lane_getPMxEmission(...)
+
+    lane_getParameter(...)
+
+    lane_getShape(...)
+
+    lane_getTraveltime(...)
+
+    lane_getWaitingTime(...)
+
+    lane_getWidth(...)
+
+    lane_setAllowed(...)
+
+    lane_setDisallowed(...)
+
+    lane_setLength(...)
+
+    lane_setMaxSpeed(...)
+
+    lane_setParameter(...)
+
+    lane_swigregister(...)
+
+    lanearea_getIDCount(...)
+
+    lanearea_getIDList(...)
+
+    lanearea_getJamLengthMeters(...)
+
+    lanearea_getJamLengthVehicle(...)
+
+    lanearea_getLaneID(...)
+
+    lanearea_getLastStepHaltingNumber(...)
+
+    lanearea_getLastStepMeanSpeed(...)
+
+    lanearea_getLastStepOccupancy(...)
+
+    lanearea_getLastStepVehicleIDs(...)
+
+    lanearea_getLastStepVehicleNumber(...)
+
+    lanearea_getLength(...)
+
+    lanearea_getPosition(...)
+
+    lanearea_swigregister(...)
+
+    multientryexit_getIDCount(...)
+
+    multientryexit_getIDList(...)
+
+    multientryexit_getLastStepHaltingNumber(...)
+
+    multientryexit_getLastStepMeanSpeed(...)
+
+    multientryexit_getLastStepVehicleIDs(...)
+
+    multientryexit_getLastStepVehicleNumber(...)
+
+    multientryexit_swigregister(...)
+
+    person_add(...)
+
+    person_appendDrivingStage(...)
+
+    person_appendWaitingStage(...)
+
+    person_appendWalkingStage(...)
+
+    person_getAngle(...)
+
+    person_getColor(...)
+
+    person_getEdges(...)
+
+    person_getIDCount(...)
+
+    person_getIDList(...)
+
+    person_getLanePosition(...)
+
+    person_getNextEdge(...)
+
+    person_getParameter(...)
+
+    person_getPosition(...)
+
+    person_getRemainingStages(...)
+
+    person_getRoadID(...)
+
+    person_getSingularVType(...)
+
+    person_getSpeed(...)
+
+    person_getStage(...)
+
+    person_getTypeID(...)
+
+    person_getVehicle(...)
+
+    person_getWaitingTime(...)
+
+    person_moveTo(...)
+
+    person_moveToXY(...)
+
+    person_removeStage(...)
+
+    person_rerouteTraveltime(...)
+
+    person_setColor(...)
+
+    person_setHeight(...)
+
+    person_setLength(...)
+
+    person_setMinGap(...)
+
+    person_setParameter(...)
+
+    person_setSpeed(...)
+
+    person_setType(...)
+
+    person_setWidth(...)
+
+    person_swigregister(...)
+
+    poi_add(...)
+
+    poi_getColor(...)
+
+    poi_getIDCount(...)
+
+    poi_getIDList(...)
+
+    poi_getParameter(...)
+
+    poi_getPosition(...)
+
+    poi_getTree(...)
+
+    poi_getType(...)
+
+    poi_remove(...)
+
+    poi_setColor(...)
+
+    poi_setParameter(...)
+
+    poi_setPosition(...)
+
+    poi_setType(...)
+
+    poi_swigregister(...)
+
+    polygon_add(...)
+
+    polygon_getColor(...)
+
+    polygon_getFilled(...)
+
+    polygon_getIDList(...)
+
+    polygon_getParameter(...)
+
+    polygon_getShape(...)
+
+    polygon_getTree(...)
+
+    polygon_getType(...)
+
+    polygon_remove(...)
+
+    polygon_setColor(...)
+
+    polygon_setFilled(...)
+
+    polygon_setParameter(...)
+
+    polygon_setShape(...)
+
+    polygon_setType(...)
+
+    polygon_swigregister(...)
+
+    route_add(...)
+
+    route_getEdges(...)
+
+    route_getIDCount(...)
+
+    route_getIDList(...)
+
+    route_getParameter(...)
+
+    route_setParameter(...)
+
+    route_swigregister(...)
+
+    simulation_close(...)
+
+    simulation_findIntermodalRoute(...)
+
+    simulation_findRoute(...)
+
+    simulation_getCurrentTime(...)
+
+    simulation_getDeltaT(...)
+
+    simulation_getMinExpectedNumber(...)
+
+    simulation_getNetBoundary(...)
+
+    simulation_getParameter(...)
+
+    simulation_load(...)
+
+    simulation_step(...)
+
+    simulation_swigregister(...)
+
+    trafficlight_getCompleteRedYellowGreenDefinition(...)
+
+    trafficlight_getControlledJunctions(...)
+
+    trafficlight_getControlledLanes(...)
+
+    trafficlight_getControlledLinks(...)
+
+    trafficlight_getIDCount(...)
+
+    trafficlight_getIDList(...)
+
+    trafficlight_getNextSwitch(...)
+
+    trafficlight_getParameter(...)
+
+    trafficlight_getPhase(...)
+
+    trafficlight_getPhaseDuration(...)
+
+    trafficlight_getProgram(...)
+
+    trafficlight_getRedYellowGreenState(...)
+
+    trafficlight_setCompleteRedYellowGreenDefinition(...)
+
+    trafficlight_setParameter(...)
+
+    trafficlight_setPhase(...)
+
+    trafficlight_setPhaseDuration(...)
+
+    trafficlight_setProgram(...)
+
+    trafficlight_setRedYellowGreenState(...)
+
+    trafficlight_swigregister(...)
+
+    vehicle_add(...)
+
+    vehicle_changeLane(...)
+
+    vehicle_changeLaneRelative(...)
+
+    vehicle_changeSublane(...)
+
+    vehicle_changeTarget(...)
+
+    vehicle_getAccel(...)
+
+    vehicle_getAcceleration(...)
+
+    vehicle_getAccumulatedWaitingTime(...)
+
+    vehicle_getActionStepLength(...)
+
+    vehicle_getAdaptedTraveltime(...)
+
+    vehicle_getAllowedSpeed(...)
+
+    vehicle_getAngle(...)
+
+    vehicle_getApparentDecel(...)
+
+    vehicle_getBestLanes(...)
+
+    vehicle_getCO2Emission(...)
+
+    vehicle_getCOEmission(...)
+
+    vehicle_getColor(...)
+
+    vehicle_getDecel(...)
+
+    vehicle_getDistance(...)
+
+    vehicle_getDrivingDistance(...)
+
+    vehicle_getDrivingDistance2D(...)
+
+    vehicle_getEdges(...)
+
+    vehicle_getEffort(...)
+
+    vehicle_getElectricityConsumption(...)
+
+    vehicle_getEmergencyDecel(...)
+
+    vehicle_getEmissionClass(...)
+
+    vehicle_getFuelConsumption(...)
+
+    vehicle_getHCEmission(...)
+
+    vehicle_getIDCount(...)
+
+    vehicle_getIDList(...)
+
+    vehicle_getImperfection(...)
+
+    vehicle_getLaneChangeMode(...)
+
+    vehicle_getLaneChangeState(...)
+
+    vehicle_getLaneID(...)
+
+    vehicle_getLaneIndex(...)
+
+    vehicle_getLanePosition(...)
+
+    vehicle_getLastActionTime(...)
+
+    vehicle_getLateralLanePosition(...)
+
+    vehicle_getLeader(...)
+
+    vehicle_getLength(...)
+
+    vehicle_getLine(...)
+
+    vehicle_getMaxSpeed(...)
+
+    vehicle_getMinGap(...)
+
+    vehicle_getNOxEmission(...)
+
+    vehicle_getNextTLS(...)
+
+    vehicle_getNoiseEmission(...)
+
+    vehicle_getPMxEmission(...)
+
+    vehicle_getParameter(...)
+
+    vehicle_getPersonNumber(...)
+
+    vehicle_getPosition(...)
+
+    vehicle_getRoadID(...)
+
+    vehicle_getRouteID(...)
+
+    vehicle_getRouteIndex(...)
+
+    vehicle_getRoutingMode(...)
+
+    vehicle_getShapeClass(...)
+
+    vehicle_getSignalStates(...)
+
+    vehicle_getSlope(...)
+
+    vehicle_getSpeed(...)
+
+    vehicle_getSpeedDeviation(...)
+
+    vehicle_getSpeedFactor(...)
+
+    vehicle_getSpeedMode(...)
+
+    vehicle_getSpeedWithoutTraCI(...)
+
+    vehicle_getStopState(...)
+
+    vehicle_getTau(...)
+
+    vehicle_getTypeID(...)
+
+    vehicle_getVClass(...)
+
+    vehicle_getVehicleType(...)
+
+    vehicle_getVia(...)
+
+    vehicle_getWaitingTime(...)
+
+    vehicle_getWidth(...)
+
+    vehicle_isRouteValid(...)
+
+    vehicle_moveTo(...)
+
+    vehicle_moveToXY(...)
+
+    vehicle_remove(...)
+
+    vehicle_rerouteEffort(...)
+
+    vehicle_rerouteTraveltime(...)
+
+    vehicle_resume(...)
+
+    vehicle_setActionStepLength(...)
+
+    vehicle_setAdaptedTraveltime(...)
+
+    vehicle_setColor(...)
+
+    vehicle_setEffort(...)
+
+    vehicle_setEmissionClass(...)
+
+    vehicle_setLaneChangeMode(...)
+
+    vehicle_setLine(...)
+
+vehicle_setMaxSpeed(...)
+
+    vehicle_setParameter(...)
+
+    vehicle_setRoute(...)
+
+    vehicle_setRouteID(...)
+
+    vehicle_setRoutingMode(...)
+
+    vehicle_setShapeClass(...)
+
+    vehicle_setSignals(...)
+
+    vehicle_setSpeed(...)
+
+    vehicle_setSpeedFactor(...)
+
+    vehicle_setSpeedMode(...)
+
+    vehicle_setStop(...)
+
+    vehicle_setType(...)
+
+    vehicle_setVia(...)
+
+    vehicle_slowDown(...)
+
+    vehicle_swigregister(...)
+
+    vehicletype_copy(...)
+
+    vehicletype_getAccel(...)
+
+    vehicletype_getActionStepLength(...)
+
+    vehicletype_getApparentDecel(...)
+
+    vehicletype_getColor(...)
+
+    vehicletype_getDecel(...)
+
+    vehicletype_getEmergencyDecel(...)
+
+    vehicletype_getEmissionClass(...)
+
+    vehicletype_getHeight(...)
+
+    vehicletype_getIDList(...)
+
+    vehicletype_getImperfection(...)
+
+    vehicletype_getLateralAlignment(...)
+
+    vehicletype_getLength(...)
+
+    vehicletype_getMaxSpeed(...)
+
+    vehicletype_getMaxSpeedLat(...)
+
+    vehicletype_getMinGap(...)
+
+    vehicletype_getMinGapLat(...)
+
+    vehicletype_getParameter(...)
+
+    vehicletype_getShapeClass(...)
+
+    vehicletype_getSpeedDeviation(...)
+
+    vehicletype_getSpeedFactor(...)
+
+    vehicletype_getTau(...)
+
+    vehicletype_getVType(...)
+
+    vehicletype_getVehicleClass(...)
+
+    vehicletype_getWidth(...)
+
+    vehicletype_setAccel(...)
+
+    vehicletype_setActionStepLength(...)
+
+    vehicletype_setApparentDecel(...)
+
+    vehicletype_setColor(...)
+
+    vehicletype_setDecel(...)
+
+    vehicletype_setEmergencyDecel(...)
+
+    vehicletype_setEmissionClass(...)
+
+    vehicletype_setHeight(...)
+
+    vehicletype_setImperfection(...)
+
+    vehicletype_setLateralAlignment(...)
+
+    vehicletype_setLength(...)
+
+    vehicletype_setMaxSpeed(...)
+
+    vehicletype_setMaxSpeedLat(...)
+
+    vehicletype_setMinGap(...)
+
+    vehicletype_setMinGapLat(...)
+
+    vehicletype_setParameter(...)
+
+    vehicletype_setShapeClass(...)
+
+    vehicletype_setSpeedDeviation(...)
+
+    vehicletype_setSpeedFactor(...)
+
+    vehicletype_setTau(...)
+
+    vehicletype_setVehicleClass(...)
+
+    vehicletype_setWidth(...)
+
+    vehicletype_swigregister(...)
+
+DATA
+    DEFAULT_VIEW = 'View #0'
+    PRECISION = 2
+

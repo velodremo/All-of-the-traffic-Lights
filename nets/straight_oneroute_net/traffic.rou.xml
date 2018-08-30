@@ -1,0 +1,47 @@
+<routes>
+	<vType accel="1.0" decel="0.5" id="ambulance" length="6.0" maxSpeed="30.5" sigma="0.0" />
+	<vType accel="1.0" decel="0.5" id="car" length="2.0" maxSpeed="27.0" sigma="0.0" />
+	<vType accel="0.8" decel="0.7" id="bus" length="12.0" maxSpeed="25.0" sigma="0.0" />
+	<route edges="1rd_1r 1r_1 1_0 0_0l 0l_0ld" id="r_1rd_0ld" />
+	<route edges="1dl_1d 1d_1 1_1u 1u_1ur" id="r_1dl_1ur" />
+	<route edges="1ul_1u 1u_1ur" id="r_1ul_1ur" />
+	<route edges="1dr_1d 1d_1dl" id="r_1dr_1dl" />
+	<route edges="0ur_0u 0u_0 0_0d 0d_0dr" id="r_0ur_0dr" />
+	<route edges="0lu_0l 0l_0 0_1 1_1r 1r_1rd" id="r_0lu_1rd" />
+	<route edges="1ul_1u 1u_1 1_1d 1d_1dr" id="r_1ul_1dr" />
+	<route edges="0ul_0u 0u_0 0_0d 0d_0dr" id="r_0ul_0dr" />
+	<route edges="1ru_1r 1r_1 1_0 0_0l 0l_0ld" id="r_1ru_0ld" />
+	<route edges="1ur_1u 1u_1 1_1d 1d_1dr" id="r_1ur_1dr" />
+	<route edges="0dr_0d 0d_0dl" id="r_0dr_0dl" />
+	<route edges="0ur_0u 0u_0ul" id="r_0ur_0ul" />
+	<route edges="0lu_0l 0l_0 0_1 1_1r 1r_1ru" id="r_0lu_1ru" />
+	<route edges="1ur_1u 1u_1ul" id="r_1ur_1ul" />
+	<route edges="1dl_1d 1d_1dr" id="r_1dl_1dr" />
+	<route edges="1rd_1r 1r_1ru" id="r_1rd_1ru" />
+	<route edges="1ul_1u 1u_1 1_1d 1d_1dl" id="r_1ul_1dl" />
+	<route edges="1ru_1r 1r_1 1_0 0_0l 0l_0lu" id="r_1ru_0lu" />
+	<route edges="0dl_0d 0d_0 0_0u 0u_0ul" id="r_0dl_0ul" />
+	<route edges="1dl_1d 1d_1 1_1u 1u_1ul" id="r_1dl_1ul" />
+	<route edges="1ur_1u 1u_1 1_1d 1d_1dl" id="r_1ur_1dl" />
+	<route edges="0ur_0u 0u_0 0_0d 0d_0dl" id="r_0ur_0dl" />
+	<route edges="0dl_0d 0d_0dr" id="r_0dl_0dr" />
+	<route edges="1dr_1d 1d_1 1_1u 1u_1ul" id="r_1dr_1ul" />
+	<route edges="1ru_1r 1r_1rd" id="r_1ru_1rd" />
+	<route edges="0ul_0u 0u_0 0_0d 0d_0dl" id="r_0ul_0dl" />
+	<route edges="0ld_0l 0l_0 0_1 1_1r 1r_1ru" id="r_0ld_1ru" />
+	<route edges="0dr_0d 0d_0 0_0u 0u_0ur" id="r_0dr_0ur" />
+	<route edges="1dr_1d 1d_1 1_1u 1u_1ur" id="r_1dr_1ur" />
+	<route edges="0dl_0d 0d_0 0_0u 0u_0ur" id="r_0dl_0ur" />
+	<route edges="1rd_1r 1r_1 1_0 0_0l 0l_0lu" id="r_1rd_0lu" />
+	<route edges="0ld_0l 0l_0 0_1 1_1r 1r_1rd" id="r_0ld_1rd" />
+	<route edges="0ld_0l 0l_0lu" id="r_0ld_0lu" />
+	<route edges="0dr_0d 0d_0 0_0u 0u_0ul" id="r_0dr_0ul" />
+	<route edges="0ul_0u 0u_0ur" id="r_0ul_0ur" />
+	<route edges="0lu_0l 0l_0ld" id="r_0lu_0ld" />
+	<flow begin="0" depart="1" end="$end" id="flow_r_1rd_0ld_ambulance" probability="$ambulance"
+		  route="r_1rd_0ld" type="ambulance" />
+	<flow begin="0" depart="1" end="$end" id="flow_r_1rd_0ld_car" probability="$car" route="r_1rd_0ld"
+		  type="car" />
+	<flow begin="0" depart="1" end="$end" id="flow_r_1rd_0ld_bus" probability="$bus" route="r_1rd_0ld"
+		  type="bus" />
+</routes>

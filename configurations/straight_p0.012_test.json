@@ -1,0 +1,32 @@
+{
+  "backend": "traci",
+  "observation_radius": 100,
+  "sumo_cmd": ["-c","nets/straight_net/config.sumocfg", "--random", "--no-warnings"],
+  "net_dir": "nets/straight_net" ,
+  "flow_probabilities": {"car": "0.012", "ambulance": "0.0012", "bus": "0.0012"},
+  "default_program": {
+    "0": ["42", "3", "42", "3"],
+    "1": ["42", "3", "42", "3"]
+  },
+  "epsilon": 0.003,
+  "actions_type": "phase",
+  "alpha": 0,
+  "discount": 0.8,
+  "r_weight": 1,
+  "junctions": ["0", "0d", "0l", "0u", "1", "1d", "1r", "1u"],
+  "junctions_with_agents": ["0"],
+  "num_episodes": 50,
+  "steps_per_episode": 4000,
+  "log_path": "logs",
+  "fixed_action": 0,
+  "log": true,
+  "exploring": false,
+  "mode": "lqf",
+  "reward_weights": {
+    "wait": 0.3,
+    "flicker": 0.1,
+    "emergency": 0,
+    "delay": 0
+  },
+  "load_weights": ["/Users/danamir/CS/AI/AI_project/logs/170818212225_straight_p0.012/weights_0.npy"]
+}

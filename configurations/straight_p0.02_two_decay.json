@@ -1,0 +1,35 @@
+{
+  "backend": "traci",
+  "observation_radius": 100,
+  "sumo_cmd": ["-c","/AI_project/nets/straight_net/config.sumocfg", "--random", "--no-warnings"],
+  "net_dir": "/AI_project/nets/straight_net" ,
+  "flow_probabilities": {"car": "0.02", "ambulance": "0.0000001", "bus": "0.0000001"},
+  "default_program": {
+    "0": ["42", "3", "42", "3"],
+    "1": ["42", "3", "42", "3"]
+  },
+  "epsilon": 0.003,
+  "actions_type": "phase",
+  "alpha": 0.01,
+  "discount": 0.9,
+  "r_weight": 1,
+  "junctions": ["0", "0d", "0l", "0u", "1", "1d", "1r", "1u"],
+  "junctions_with_agents": ["0", "1"],
+  "num_episodes":  150,
+  "steps_per_episode": 1500,
+  "log_path": "/AI_project/logs",
+  "fixed_action": 0,
+  "log": true,
+  "exploring": false,
+  "mode": "linear",
+  "reward_weights": {
+    "wait": 0.3,
+    "flicker": 0.1,
+    "emergency": 0,
+    "delay": 0,
+    "teleport": 2
+  },
+  "simulation_offset": 300,
+  "min_phase_duration": 0,
+  "alpha_decay": 0.98
+}

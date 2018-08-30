@@ -1,0 +1,25 @@
+{
+  "backend": "libsumo",
+  "observation_radius": 50,
+  "sumo_cmd": ["-C","/AI_project/nets/complex_net/config.sumocfg"],
+  "net_dir": "/AI_project/nets/complex_net" ,
+  "flow_probabilities": {"car": "0.001", "ambulance": "0.0001", "bus": "0.0001"},
+  "default_program": {
+    "0": ["100", "3", "6", "3", "100", "3", "6", "3"],
+    "1": ["100", "3", "6", "3", "100", "3", "6", "3"]
+  },
+  "epsilon": 0.01,
+  "actions_type": "dual",
+  "alpha": 0.0001,
+  "discount": 0.9,
+  "r_weight": 0.9,
+  "junctions": ["0", "0d", "0l", "0u", "1", "1d", "1r", "1u"],
+  "junctions_with_agents": ["0", "1"],
+  "num_episodes": 2,
+  "steps_per_episode": 2000,
+  "log_path": "/AI_project/logs",
+  "mode": "linear",
+  "log": false,
+  "exploring": false,
+  "fixed_action": 2
+}
