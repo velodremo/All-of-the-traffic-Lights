@@ -5,11 +5,11 @@
 Dan Amir,
 Omer Dolev,
 May Yaaron,
-Netai Benaim 
+Netai Benaim
 
 
 ## Introduction and Usability
-RL agent for traffic light control using the SUMO traffic simulation engine.
+RL agent for traffic light control using the [SUMO](http://sumo.dlr.de/index.html) traffic simulation engine.
 
 Training and Inference should be performed using the provided Dockerfile-s only.
 Full Training is available only with the TraCI Docker image, since no collisions information is supplied via
@@ -76,5 +76,3 @@ A bash script named `run_exps.sh` is provided with some example commands.
 - "min_phase_duration": Limits the minimal duration before phase change
 - "alpha_decay": (optional) Decay factor to multiply by alpha every epoch.
 - "load_weights" (optional) List of paths to the weight numpy arrays of the agents (loaded before training).
-
-
